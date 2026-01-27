@@ -5,7 +5,7 @@
 
 The best way to implement singleton pattern in Unity. By using this pattern you will be able to define Global variables and classes and use their methods and properties in Global. This pattern is a must-have for most of the games that made using Unity engine.
 
-:book: [Learn More about Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
+📖 [Learn More about Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 ## Features
 
@@ -26,7 +26,7 @@ and add it as a git package in the Unity Package Manager by clicking on the "+" 
 
 Once you have the package installed, you may
 
-- Create your own Singleton classes by extending the Generic [:sparkles: Singleton :sparkles:](Runtime/Scripts/Singleton.cs) class. (:rocket: Check out the example [GameManager](Samples~/Scripts/GameManager.cs) in the example [\_Preload scene](Samples~/Scenes/_Preload.unity).)
+- Create your own Singleton classes by extending the Generic [✨ Singleton ✨](Runtime/Scripts/Singleton.cs) class. (🚀 Check out the example [GameManager](Samples~/Scripts/GameManager.cs) in the example [\_Preload scene](Samples~/Scenes/_Preload.unity).)
 - Attach your singleton classes to a GameManager game object in a \_Preload scene of your own.
 - Edit the variables inside the inspector
 - Run the game and enjoy!
@@ -51,16 +51,16 @@ Run the following command in terminal or command prompt to clone the repository:
 git clone https://github.com/UnityCommunity/UnitySingleton.git
 ```
 
-Or [:fire: Download the master branch as zip](https://github.com/UnityCommunity/UnitySingleton/archive/master.zip).
+Or [🔥 Download the master branch as zip](https://github.com/UnityCommunity/UnitySingleton/archive/master.zip).
 
 ## Resources
 
-- [:book: Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
-- [:book: On the \_Preload Scene](https://stackoverflow.com/questions/35890932/unity-game-manager-script-works-only-one-time/35891919#35891919)
-- [:arrow_forward: Deep dive into the Singleton Pattern](https://www.youtube.com/watch?v=mpM0C6quQjs)
+- [📖 Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+- [📖 On the \_Preload Scene](https://stackoverflow.com/questions/35890932/unity-game-manager-script-works-only-one-time/35891919#35891919)
+- [▶️ Deep dive into the Singleton Pattern](https://www.youtube.com/watch?v=mpM0C6quQjs)
 
 ## License
 
 MIT @ [Unity Community](https://github.com/UnityCommunity)
 
-Made with :heart: by [Unity Community](https://github.com/UnityCommunity)
+Made with ❤️ by [Unity Community](https://github.com/UnityCommunity)
