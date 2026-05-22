@@ -42,9 +42,9 @@ Add `using UnityCommunity.UnitySingleton;` for using the classes.
 ## Common Issues
 
 1. "Some objects were not cleaned up when closing the scene. (Did you spawn new GameObjects from OnDestroy?)"
-	This issue is caused when trying to unsubscribe from an event in OnDestroy/OnDisable. It happens because the singleton is destroyed before trying to unsubscribe, and because no singleton exists it tries to spawn a new one. It spawns this new singleton as the scene is getting disabled, producing this error.
+	This issue is caused when trying to unsubscribe from an event in OnDestroy/OnDisable. It happens because the singleton is destroyed before trying to unsubscribe, which spawns a new one as the scene is getting disabled, producing this error.
 	
-	To fix this error, check the `<T>.HasInstance` bool on the singleton in an if statement before unsubscribing the events.
+	To fix this error, check the `<T>.HasInstance` bool on the singleton in an if statement before unsubscribing from events.
 
 ## Contribute
 
